@@ -6,6 +6,13 @@
 body{
     font-family: "Poppins", sans-serif;
     background: #CADCFC;
+    color:#00246B;
+}
+.container{
+    position: relative;
+    bottom: 7rem;
+
+
 }
 .heading{
     text-align: center;
@@ -63,4 +70,45 @@ body{
 }
 input,select{
     border: none;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    background: #00246B;
+    height: 10rem;
+    bottom: 0;
+    text-align: center;
+    padding-top: 2rem;
+}
+.footer img{
+    display: inline-block;
+    width: 5%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+ 
+    
+}
+
+.info a{
+
+    text-decoration: none;
+    text-align: center;
+    color: #CADCFC;
+    font-size: 0.7em;
+}
+.term a{
+
+    text-decoration: none;
+    color: #CADCFC;
+    font-size: 0.7em;
+    text-align: center;
+}
+.dot{
+    color: lightgray;
+    
+}
+p{
+    color: lightgray;
+    font-size: 0.5rem;
+    margin-top: 4px;
 }

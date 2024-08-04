@@ -115,5 +115,5 @@ function convertInputDegree() {
 
 
 $('#inputDegree').on('input', () => convertInputDegree());
-$('#selectInputDegreeType').change(() => convertInputDegree());
+$('#selectInputDegreeType1').change(() => convertInputDegree());
 $('#selectConversionType').change(() => convertInputDegree());
