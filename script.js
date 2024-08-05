@@ -72,8 +72,7 @@ function convertInputDegree() {
     let inputDegree = parseInt($('#inputDegree').val());
     let selectInputDegreeType = $('#selectInputDegreeType1').val();
     let conversionType = $('#selectConversionType').val();
-  console.log(inputDegree);
-  console.log(selectInputDegreeType , conversionType);
+  
     let resultValue = "";
   
     switch (selectInputDegreeType) {
