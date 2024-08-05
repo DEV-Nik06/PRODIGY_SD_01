@@ -72,11 +72,12 @@ input,select{
     border: none;
 }
 .footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: #00246B;
-    height: 10rem;
+    height: 9rem;
     bottom: 0;
+    left: 0;
     text-align: center;
     padding-top: 2rem;
 }
